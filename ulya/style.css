@@ -122,3 +122,30 @@ p {
 .card:hover .title {
 	visibility: hidden;
 }
+
+@media (max-width: 500px) {
+	.card {
+		width: 200px;
+		height: 300px;
+		margin-left: 25%;
+	}
+
+	.title {
+		font-size: 22px;
+		margin-top: 30px;
+	}
+
+	p {
+		font-size: 20px;
+		margin: 15px 5px 5px 15px;
+	}
+
+	.name {
+		left: 100px;
+	}
+
+	.back {
+		font-size: 14px;
+		margin: 15px;
+	}
+}
